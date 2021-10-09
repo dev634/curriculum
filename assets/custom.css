@@ -1,9 +1,13 @@
+.city{
+    margin-left:.85rem;
+}
+
 .bg-transparent{
     background-color: transparent;
 }
 
 .fs-7{
-    font-size: 0.75rem;
+    font-size: 0.80rem;
 }
 
 .fs-8{
