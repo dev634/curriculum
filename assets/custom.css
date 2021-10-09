@@ -1,5 +1,10 @@
 .city{
-    margin-left:.85rem;
+    margin-left:1.3rem;
+}
+
+.img{
+    margin:0 auto;
+    width:50%;
 }
 
 .bg-transparent{
