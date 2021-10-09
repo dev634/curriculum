@@ -1,19 +1,35 @@
-.city{
-    margin-left:1.3rem;
+.city {
+  margin-left: 1.3rem;
 }
 
-.bg-transparent{
-    background-color: transparent;
+.bg-transparent {
+  background-color: transparent;
 }
 
-.fs-7{
-    font-size: 0.80rem;
+.fs-7 {
+  font-size: 0.8rem;
 }
 
-.fs-8{
-    font-size:0.5rem;
+.fs-8 {
+  font-size: 0.5rem;
 }
 
-.w-80{
-    width:80%;
+.fs-vw-1 {
+  font-size: 1vw;
+}
+
+.fs-vw-2 {
+  font-size: 2vw;
+}
+
+.fs-vw-3 {
+  font-size: 3vw;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-80 {
+  width: 80%;
 }
