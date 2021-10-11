@@ -37,3 +37,9 @@
 .w-80 {
   width: 80%;
 }
+
+@media (min-width: 992px) {
+  .w-l-50 {
+    width: 60%;
+  }
+}
