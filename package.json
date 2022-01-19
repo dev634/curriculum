@@ -1,7 +1,6 @@
 {
   "name": "CV",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "browser-sync start --server --files '*.html' \"assets/*.css\""
@@ -22,5 +21,6 @@
   },
   "devDependencies": {
     "prettier": "^2.4.1"
-  }
+  },
+  "description": ""
 }

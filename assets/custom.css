@@ -2,6 +2,27 @@
   --bs-primary-rgb: 0, 0, 53;
 }
 
+.card:nth-child(2) .card-text:hover {
+  transform: scale(1.15) translateX(20px);
+  -webkit-transform: scale(1.15) translateX(20px);
+  -moz-transform: scale(1.15) translateX(20px);
+  -ms-transform: scale(1.15) translateX(20px);
+  -o-transform: scale(1.15) translateX(20px);
+  transition: all 200ms ease;
+}
+
+.card:nth-child(2) p.card-text {
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+}
+
+.card:nth-child(2) p.card-text:hover > * {
+  color: #00bfff !important;
+}
+
 .city {
   margin-left: 1.3rem;
 }
