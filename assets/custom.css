@@ -42,6 +42,10 @@
   width: 80%;
 }
 
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
 @media (min-width: 992px) {
   .w-l-50 {
     width: 60%;
