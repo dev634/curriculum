@@ -74,12 +74,34 @@
 }
 
 @media print {
-  #wrapper {
-    width: 100%;
+  @page {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-print {
+    display: flex;
+    background-color: greenyellow;
     margin: 0;
   }
 
-  #sidebar {
-    width: 60%;
+  .col-print-3 {
+    width: 25%;
+  }
+
+  .col-print-4 {
+    width: 33%;
+  }
+
+  .col-print-7 {
+    width: 58.33% !important;
+  }
+
+  .col-print-8 {
+    width: 66.66%;
+  }
+
+  .col-print-9 {
+    width: 75%;
   }
 }
