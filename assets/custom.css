@@ -115,9 +115,9 @@
     margin-bottom: 0.25cm !important;
   }
 
-  #diploma {
-    height: 100%;
-    width: 100%;
+  #experience {
+    page-break-before: always;
+    clear: both;
   }
 
   .container-print {
