@@ -79,10 +79,79 @@
     padding: 0;
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #sidebar .row {
+    margin: 0;
+    padding: 0;
+  }
+
+  #sidebar .card {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  #sidebar .photo {
+    margin-bottom: 0.75cm;
+    width: 4cm !important;
+  }
+
+  #sidebar .card .fullname,
+  #sidebar .card .card-title {
+    font-size: 12pt !important;
+  }
+
+  #sidebar .card .icon {
+    font-size: 10pt;
+  }
+
+  #sidebar .card .text {
+    font-size: 10pt;
+    text-align: left;
+    margin-bottom: 0.25cm !important;
+  }
+
   .container-print {
     display: flex;
-    background-color: greenyellow;
+    background-color: white;
     margin: 0;
+  }
+
+  .mx-print-auto {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .my-print-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .p-print-0 {
+    padding: 0 !important;
+  }
+
+  .mb-print-0 {
+    margin-bottom: 0 !important;
+  }
+
+  .mb-print-1 {
+    margin-bottom: 0.25cm !important;
+  }
+
+  .mb-print-2 {
+    margin-bottom: 0.5cm;
+  }
+
+  .col-print-1 {
+    width: 8.33%;
+  }
+
+  .col-print-2 {
+    width: 16.66%;
   }
 
   .col-print-3 {
@@ -102,6 +171,18 @@
   }
 
   .col-print-9 {
-    width: 75%;
+    width: 75% !important;
+  }
+
+  .col-print-10 {
+    width: 83% !important;
+  }
+
+  .col-print-11 {
+    width: 91.66%;
+  }
+
+  .col-print-12 {
+    width: 100%;
   }
 }
