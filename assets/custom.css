@@ -75,16 +75,12 @@
 
 @media print {
   @page {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-
-  * {
+    size: A4 portrait;
     margin: 0;
     padding: 0;
   }
 
+  /*sections*/
   #sidebar .row {
     margin: 0;
     padding: 0;
@@ -109,21 +105,30 @@
     font-size: 10pt;
   }
 
-  #sidebar .card .text {
-    font-size: 10pt;
-    text-align: left;
+  .text {
+    font-size: 10pt !important;
+    text-align: left !important;
     margin-bottom: 0.25cm !important;
   }
 
-  #experience {
-    page-break-before: always;
-    clear: both;
+  .title {
+    font-size: 0.5cm !important;
+  }
+
+  /*utilities*/
+
+  .page__break {
+    page-break-after: always !important;
   }
 
   .container-print {
     display: flex;
     background-color: white;
     margin: 0;
+  }
+
+  .border-print-0 {
+    border: none;
   }
 
   .mx-print-auto {
@@ -136,8 +141,26 @@
     margin-bottom: 0 !important;
   }
 
+  .m-print-0 {
+    margin: 0 !important;
+  }
+
   .p-print-0 {
     padding: 0 !important;
+  }
+
+  .py-print-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .py-print-1 {
+    padding-top: 0.25cm !important;
+    padding-bottom: 0.25cm !important;
+  }
+
+  .c {
+    margin-bottom: 0 !important;
   }
 
   .mb-print-0 {
@@ -149,23 +172,23 @@
   }
 
   .mb-print-2 {
-    margin-bottom: 0.5cm;
+    margin-bottom: 0.5cm !important;
   }
 
   .col-print-1 {
-    width: 8.33%;
+    width: 8.33% !important;
   }
 
   .col-print-2 {
-    width: 16.66%;
+    width: 16.66% !important;
   }
 
   .col-print-3 {
-    width: 25%;
+    width: 25% !important;
   }
 
   .col-print-4 {
-    width: 33%;
+    width: 33% !important;
   }
 
   .col-print-7 {
@@ -173,7 +196,7 @@
   }
 
   .col-print-8 {
-    width: 66.66%;
+    width: 66.66% !important;
   }
 
   .col-print-9 {
@@ -185,10 +208,10 @@
   }
 
   .col-print-11 {
-    width: 91.66%;
+    width: 91.66% !important;
   }
 
   .col-print-12 {
-    width: 100%;
+    width: 100% !important;
   }
 }
