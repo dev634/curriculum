@@ -32,8 +32,5 @@
     "postcss-preset-env": "^7.2.3",
     "prettier": "^2.4.1"
   },
-  "description": "",
-  "exclude": [
-    "node_modules"
-  ]
+  "description": ""
 }
