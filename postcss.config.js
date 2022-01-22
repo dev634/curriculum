@@ -9,17 +9,14 @@ module.exports = {
   plugins: [
     postcssImport(),
     postcssNested(),
-    postcssPresetEnv({
-      stage: 2,
-    }),
     purgecss({
       content: ["index.html"],
       css: ["assets/custom.css"],
       keyframes: true,
       variables: true,
     }),
-    // cssnano({
-    //   preset: "default",
-    // }),
+    cssnano({
+      preset: "default",
+    }),
   ],
 };
