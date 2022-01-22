@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server --files '*.html' \"assets/*.css\"",
-    "css:build": "postcss assets/custom.css -o dist/test.css"
+    "start": "browser-sync start --server --files '*.html' \"assets/*.scss\"",
+    "css:build": "postcss assets/custom.scss -o dist/test.css"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
     "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-preset-env": "^7.2.3",
     "prettier": "^2.4.1"
   },
   "description": ""
